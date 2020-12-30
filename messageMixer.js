@@ -1,4 +1,6 @@
-function countCharacter(inputString, inputCharacter) {
+const MessageMixer = {};
+
+const countCharacter = function (inputString, inputCharacter) {
     let count = 0;
     let string = inputString.toLowerCase();
     let character = inputCharacter.toLowerCase();
@@ -9,8 +11,7 @@ function countCharacter(inputString, inputCharacter) {
     }
     return count;
 };
-
-function capitalizeFirstCharacterOfWords(string) {
+const capitalizeFirstCharacterOfWords = function (string) {
     let arr = string.split(" ");
     for (let i = 0; i < arr.length; i++) {
         let word = arr[i];
@@ -20,11 +21,11 @@ function capitalizeFirstCharacterOfWords(string) {
 };
 
 
-function reverseWord(word) {
+const reverseWord = function (word) {
     return word.split("").reverse().join("");
 };
 
-function reverseAllWords(sentence) {
+const reverseAllWords = function (sentence) {
     let words = sentence.split(" ");
     for (let i = 0; i < words.length; i++) {
         words[i] = reverseWord(words[i]);
@@ -33,16 +34,16 @@ function reverseAllWords(sentence) {
 };
 
 
-function replaceFirstOccurence(string, toBeReplaced, replaceWith) {
+const replaceFirstOccurence = function (string, toBeReplaced, replaceWith) {
     return string.replace(toBeReplaced, replaceWith);
 };
 
 
-function replaceAllOccurrences(string, toBeReplaced, replaceWith) {
+const replaceAllOccurrences = function (string, toBeReplaced, replaceWith) {
     return string.split(toBeReplaced).join(replaceWith);
 };
 
-function encode(string) {
+const encode = function (string) {
     let replacementObject = { "a": "@", "s": "$", "i": "!", "o":"0" };
     for (let key in replacementObject) {
         string = replaceAllOccurrences(string, key, replacementObject[key]);
@@ -50,14 +51,13 @@ function encode(string) {
     return string;
 };
 
+const palindrome = function (str) {
+    return `${str} ${reverseWord(str)}`;
+};
 
-function displayMessage() {
-    console.log(countCharacter("What is the color of the sky?", "t"));
-    console.log(capitalizeFirstCharacterOfWords("What is the color of the sky?"));
-    console.log(reverseWord("What is the color of the sky?"));
-    console.log(reverseAllWords("What is the color of the sky?"));
-    console.log(replaceFirstOccurence("What is the color of the sky?", "sky", "water"));
-    console.log(encode("What is the color of the sky?"));
-}
+const pigLatin = function (sentence, character) {
+    return sentence.split(' ').join(character + ' ');
+};
 
-displayMessage();
+export { countCharacter, capitalizeFirstCharacterOfWords, reverseWord, reverseAllWords, replaceFirstOccurence, replaceAllOccurrences, encode, palindrome, pigLatin };
+

@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1824182d-2b50-40fd-bc07-bc8585c00f6a" name="Default Changelist" comment="" />
+    <list default="true" id="1824182d-2b50-40fd-bc07-bc8585c00f6a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/message.js" beforeDir="false" afterPath="$PROJECT_DIR$/message.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/messageMixer.js" beforeDir="false" afterPath="$PROJECT_DIR$/messageMixer.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,15 +21,30 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="eb1cfede-1606-46c2-b64e-9b61bd1f9171" />
+  </component>
   <component name="ProjectId" id="1mLnegW6h1NAvXrv73mwGVNj2vX" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -34,11 +55,25 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1609281837876</updated>
-      <workItem from="1609281839534" duration="133000" />
+      <workItem from="1609281839534" duration="2571000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="565" y="363" key="Github.Dialog.Accounts.Choose" timestamp="1609282010991">
+      <screen x="0" y="23" width="1440" height="819" />
+    </state>
+    <state x="565" y="363" key="Github.Dialog.Accounts.Choose/0.23.1440.819/-1920.23.1920.1057@0.23.1440.819" timestamp="1609282010991" />
+    <state x="535" y="318" key="Github.ShareDialog" timestamp="1609281987486">
+      <screen x="0" y="23" width="1440" height="819" />
+    </state>
+    <state x="535" y="318" key="Github.ShareDialog/0.23.1440.819/-1920.23.1920.1057@0.23.1440.819" timestamp="1609281987486" />
+    <state x="493" y="144" key="Github.UntrackedFilesDialog" timestamp="1609282005385">
+      <screen x="0" y="23" width="1440" height="819" />
+    </state>
+    <state x="493" y="144" key="Github.UntrackedFilesDialog/0.23.1440.819/-1920.23.1920.1057@0.23.1440.819" timestamp="1609282005385" />
   </component>
 </project>
